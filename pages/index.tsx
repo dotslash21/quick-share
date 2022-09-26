@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <>
-      <div className="flex flex-row md:flex-col"></div>
-    </>
+    <div className="container mx-auto">
+      <Hero />
+    </div>
   );
 };
 
